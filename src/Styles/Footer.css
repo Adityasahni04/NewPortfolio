@@ -1,0 +1,24 @@
+
+.childfooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 90%;
+    width: 56rem;
+    margin: auto;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+}
+.rightfooter a {
+    margin-right: 30px;
+    text-decoration: none;
+}
+.social-icon {
+    font-size: 1.5rem; /* Makes the icons bigger */
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2); /* Enlarge icon on hover */
+    color: #ffcc00; /* Change color on hover */
+}

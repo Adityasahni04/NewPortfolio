@@ -1,0 +1,119 @@
+
+.heading{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1e293b;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+.contactme{
+    width: 56rem;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 2rem;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.socials h2{
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.contactform
+{
+    max-width: 400px;
+}
+.contactform input,textarea{
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 1.4rem;
+    border-radius: 8px;
+    background-color: aliceblue;
+    border: none;
+
+}
+.contactform label{
+    margin-bottom: 4px;
+    display: block;
+}
+textarea {
+    resize: none;
+}
+
+.contactform button{
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: #695aa6;
+    cursor: pointer;
+    font-size: small;
+    border-radius: 8px;
+    border: none;
+}
+.tail p{
+    margin-bottom: 8px;
+}
+@media (max-width: 1024px) {
+    .contactme {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .contactform {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .heading {
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .contactme {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .contactform input,
+    .contactform textarea {
+        font-size: 1rem;
+        padding: 8px 15px;
+    }
+
+    .contactform button {
+        font-size: 1rem;
+        padding: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .heading {
+        margin-bottom: 2rem;
+    }
+
+    .contactme {
+        width: 95%;
+        gap: 1rem;
+    }
+
+    .contactform input,
+    .contactform textarea {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    .contactform button {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}
+

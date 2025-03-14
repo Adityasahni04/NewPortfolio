@@ -6,6 +6,8 @@ import AboutMe from './components/AboutMe'
 import Projects from './components/Projects'
 import Why_work_with_me from './components/Why_work_with_me'
 import HireMe from './components/HireMe'
+import ContactMe from './components/ContactMe'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -16,6 +18,8 @@ const App = () => {
       <AboutMe/>
       <HireMe/>
       <Why_work_with_me/>
+      <ContactMe/>
+      <Footer/>
     </div>
   )
 }
