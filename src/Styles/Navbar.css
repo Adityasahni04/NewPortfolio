@@ -1,0 +1,85 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures consistent sizing */
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar Container */
+.Main {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 0.3s ease-in-out, backdrop-filter 0.3s ease-in-out;
+}
+
+/* Left Section (Logo/Title) */
+.leftdiv h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1E293B;
+    margin-left: 40px;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Right Section (Navigation Links) */
+.rightdiv {
+    text-align: center;
+    align-items: center;
+    margin-right: 35px;
+    display: flex;
+    gap: 20px; /* Improved spacing between links */
+}
+
+/* Navigation Links */
+.rightdiv a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-right: 30px;
+    transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+/* Hover Effect */
+.rightdiv a:hover {
+    color: #4F46E5; /* Industry-standard hover color */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+.rightdiv a.active {
+    color: #4F46E5; /* Highlight active link */
+    
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .Main {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .leftdiv h2 {
+        margin: 0;
+        font-size: 1.4rem;
+    }
+
+    .rightdiv {
+        flex-direction: column;
+        gap: 10px;
+        margin-right: 0;
+    }
+
+    .rightdiv a {
+        margin-right: 0;
+    }
+}
