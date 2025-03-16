@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Project = ({ title, image, description }) => {
+const Project = ({ title, image, description,gitLink }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
@@ -13,10 +13,10 @@ const Project = ({ title, image, description }) => {
       onMouseLeave={() => setIsHovered(false)}
     >
       {isHovered && (
-        <div className="overlay">
-          <h3>{title}</h3>
-          <p>{description}</p>
-        </div>
+        <div className="overlay" onClick={() => window.open(gitLink, "_blank")}>
+        <h3>{title}</h3>
+        <p>{description}</p>
+      </div>      
       )}
     </div>
   );

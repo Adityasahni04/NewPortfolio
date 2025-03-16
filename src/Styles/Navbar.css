@@ -56,6 +56,13 @@
     color: #4F46E5; /* Highlight active link */
     
 }
+nav a, nav .Link {
+    cursor: pointer;  
+    text-decoration: none; 
+    color: inherit; 
+    padding: 10px 15px;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {

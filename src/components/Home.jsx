@@ -14,7 +14,9 @@ const Home = () => {
        <p>UI Designer</p>
        <p>Freelancer</p>
       </div>
-       <button className='button'>View My Works</button>
+      <button className='button' onClick={() => document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })}>
+  View My Works
+</button>
     </div>
       
 
