@@ -21,6 +21,9 @@ const NavBar = () => {
           <Link to="projects" smooth={true} duration={500} className={active === "Projects" ? "active" : ""} onClick={() => setActive("Projects")}>
             Projects
           </Link>
+          <Link to="blogs" smooth={true} duration={500} className={active === "Blogs" ? "active" : ""} onClick={() => setActive("Blogs")}>
+           Blogs
+          </Link>
           <Link to="contact-me" smooth={true} duration={500} className={active === "ContactMe" ? "active" : ""} onClick={() => setActive("ContactMe")}>
             Contact
           </Link>

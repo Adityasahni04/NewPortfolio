@@ -10,6 +10,7 @@ const AboutMe = () => {
   return (
     <section id="about">
       <div className="container">
+        <h3>Who am I?</h3>
         <h2 className="h2">About Me</h2>
         <div className="contentaboutme">
           <div className="image-container">
@@ -37,11 +38,11 @@ const AboutMe = () => {
               <div className="skills-list">
                 {[
                   "React",
-                  "Next.js",
-                  "TypeScript",
                   "Tailwind CSS",
-                  "UI/UX Design",
                   "Node.js",
+                  "Docker",
+                  "AWS",
+                  "SQL",
                 ].map((skill) => (
                   <span key={skill} className="skill-badge">
                     {skill}

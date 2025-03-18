@@ -8,6 +8,8 @@ import WhyWorkWithMe from './components/Why_work_with_me';
 import HireMe from './components/HireMe';
 import ContactMe from './components/ContactMe';
 import Footer from './components/Footer';
+import Blog from './components/Blog';
+import Blogs from './components/Blogs';
 
 const App = () => {
   return (
@@ -18,6 +20,7 @@ const App = () => {
       <section id="about-me"><AboutMe /></section>
       <section id="hire-me"><HireMe /></section>
       <section id="projects"><Projects /></section>
+      <section id="blogs"><Blogs/></section>
       <section id="contact-me"><ContactMe /></section>
       <Footer />
     </div>

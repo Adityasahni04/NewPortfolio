@@ -1,0 +1,178 @@
+.blogSection h1 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    color: #1e293b;
+    margin-bottom: 4rem;
+  }
+  .blogSection h3 {
+    margin-top: 8rem;
+    text-align: center;
+    color: #1e293b;
+  }
+  
+  
+  /* Ensures proper responsiveness */
+  .blogSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Main blog container */
+  .blogContent {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping for smaller screens */
+    width: 70rem;
+    max-width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    height: auto; /* Remove fixed height */
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    border:1px solid #dee2e6;
+  }
+  .blog-heading{
+    font-size: 1.3rem;
+    color: #695aa6;
+  }
+  .authour-name p{
+    color:#444;
+    font-size:.86rem;
+    font-weight: 450;
+  }
+  .stats{
+    font-size:.86rem;
+    font-weight: 400;
+    color: #444;
+  }
+  /* Left content (image section) */
+  .left-content {
+    width: 30%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .fa-regular::before{
+    color: crimson !important;
+  }
+  /* Right content (text section) */
+  .right-content {
+    width: 70%;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    gap: 8px;
+  }
+ .link-readmore{
+  color: #695aa6 !important;
+  font-size:.85rem !important;
+  font-weight: 400 !important;
+  text-decoration: none !important;
+ }
+.blog-content a
+{
+ text-decoration: none;
+}
+  /* Author and stats section */
+  .author-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .stats {
+    display: flex;
+    gap: 15px;
+  }
+  
+  /* Blog text content */
+  .blog-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .blog-content p{
+    font-weight: 100;
+    color: #111;
+    font-size: .96rem;
+    letter-spacing: .6px;
+
+  }
+  /* Responsive Design */
+  @media screen and (max-width: 1024px) {
+    .blogContent {
+      flex-direction: column; /* Stack elements on smaller screens */
+    }
+  
+    .left-content {
+      width: 100%; /* Full width on smaller screens */
+      height: auto;
+    }
+  
+    .left-content img {
+      height: auto;
+    }
+  
+    .right-content {
+      width: 100%; /* Full width for text */
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .blogSection h1 {
+      font-size: 2.5rem; /* Slightly smaller heading */
+      margin-top: 5rem;
+      margin-bottom: 3rem;
+    }
+  
+    .blogContent {
+      max-width: 100%;
+      padding: 10px;
+    }
+  
+    .right-content {
+      padding: 15px;
+    }
+  
+    .blog-heading {
+      font-size: 1.8rem;
+    }
+  
+    .author-details {
+      gap: 5px;
+    }
+  
+    .stats {
+      gap: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .blogSection h1 {
+      font-size: 2rem;
+      margin-top: 3rem;
+    }
+  
+    .blogContent {
+      padding: 10px;
+    }
+  
+    .blog-heading {
+      font-size: 1.5rem;
+    }
+  
+    .author-details {
+      font-size: 1rem;
+    }
+  }
+  
