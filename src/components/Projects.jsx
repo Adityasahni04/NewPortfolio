@@ -17,7 +17,7 @@ const projectList = [
     image: "/images/4.png", 
     description: "A personal portfolio showcasing my projects and skills.", 
     gitLink: "https://github.com/yourusername/triptogether",
-    videoSrc: "/images/v.mp4"
+    videoSrc: "/images/v1.mp4"
   },
   { 
     id: 3, 
@@ -25,7 +25,7 @@ const projectList = [
     image: "/images/2.png", 
     description: "An app to manage tasks efficiently with deadlines and priorities.", 
     gitLink: "https://github.com/yourusername/task-management-app",
-    videoSrc: "/images/v.mp4"
+    videoSrc: "/images/sample.mp4"
   },
   { 
     id: 4, 
@@ -33,7 +33,7 @@ const projectList = [
     image: "/images/34.png", 
     description: "A branding project for a startup including logo and marketing materials.", 
     gitLink: "https://github.com/yourusername/brand-identity",
-    videoSrc: "/images/v.mp4"
+    videoSrc: "/images/69.mp4"
   },
   { 
     id: 5, 
@@ -41,7 +41,7 @@ const projectList = [
     image: "/images/35.png", 
     description: "A weather app that provides real-time weather updates and forecasts.", 
     gitLink: "https://github.com/yourusername/weather-dashboard",
-    videoSrc: "/images/v.mp4"
+    videoSrc: "/images/test.mp4"
   },
   { 
     id: 6, 
