@@ -18,7 +18,9 @@
     z-index: 50;
     background-color: transparent;
 }
-
+.Main.scrolled {
+    background: rgba(236, 233, 233, 0.9); /* Dark background when scrolled */
+  }
 /* Left Section (Logo/Title) */
 .leftdiv h2 {
     font-size: 1.5rem;
@@ -63,28 +65,61 @@ nav a, nav .Link {
     padding: 10px 15px;
     transition: color 0.3s ease, transform 0.2s ease;
 }
-
+/* Responsive Design */
 /* Responsive Design */
 @media (max-width: 768px) {
     .Main {
-        flex-direction: column;
-        align-items: center;
         padding: 15px;
-        text-align: center;
+        align-items: center;
     }
-
+    
     .leftdiv h2 {
-        margin: 0;
-        font-size: 1.4rem;
+        margin-left: 0;
+        font-size: 1.3rem;
     }
-
-    .rightdiv {
+    
+    /* Initially hide the nav-links */
+    .rightdiv .nav-links {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(to bottom, rgba(110, 120, 165, 0.95), rgba(220, 220, 235, 0.95));
+        z-index: 100;
         flex-direction: column;
-        gap: 10px;
-        margin-right: 0;
+        padding: 60px 20px 20px;
+        align-items: flex-start;
+        gap: 25px;
     }
 
-    .rightdiv a {
-        margin-right: 0;
+    /* Show navigation when active */
+    .rightdiv.nav-active .nav-links {
+        display: flex;
+    }
+
+    .rightdiv .nav-links a {
+        color: #4A5568;
+        font-size: 1.1rem;
+        font-weight: 500;
+        padding: 10px 0;
+        border-bottom: none;
+    }
+
+    .rightdiv .nav-links a.active {
+        color: #2D3748;
+    }
+
+    .hamburger {
+        display: block;
+        z-index: 101;
+        cursor: pointer;
+        position: relative;
+    }
+
+    /* Hide desktop navigation links */
+    .rightdiv > a {
+        display: none;
     }
 }
