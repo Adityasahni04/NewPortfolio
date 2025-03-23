@@ -17,36 +17,20 @@ const Footer = () => {
         </div>
         <div className="rightfooter">
           <a
-            href="https://facebook.com/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="social-icon"
-          >
-            <FaFacebook />
-          </a>
-          <a
-            href="https://twitter.com/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="social-icon"
-          >
-            <FaTwitter />
-          </a>
-          <a
-            href="https://instagram.com/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="social-icon"
-          >
-            <FaInstagram />
-          </a>
-          <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/adityasahni04/"
             target="_blank"
             rel="noopener noreferrer"
             className="social-icon"
           >
             <FaLinkedin />
+          </a>
+          <a
+            href="https://github.com/Adityasahni04"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-icon"
+          >
+            <FaGithub />
           </a>
         </div>
       </div>

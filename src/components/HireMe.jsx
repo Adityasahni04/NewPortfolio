@@ -11,10 +11,10 @@ const linkedin=()=>{
     <div className='newcomponet'>
          <div className="hireme">
             <div className="text">
-                 <h3>Want to work with me </h3>
-                 <p>Always feel Free to Contact & Hire me</p>
+            <h3>Let’s Work Together!</h3>
+            <p>Interested in collaborating? Reach out, and let’s build something great!</p>
                  </div>
-            <div className="hirebutton"><button onClick={linkedin}>Hire Me!</button></div>
+            <div className="hirebutton"><button onClick={linkedin}>Connect Now!</button></div>
          </div>
     </div>
   )

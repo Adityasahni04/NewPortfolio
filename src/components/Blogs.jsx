@@ -5,18 +5,18 @@ const Blogs = () => {
   const blogData = [
     {
       id: 1,
-      title: "Internship at Barclays",
+      title: "Why Microservices in Docker Are the Future (and How My Coffee Machine Almost Crashed Production)",
       author: "Aditya",
-      image: "/images/adi1.jpg",
-      likes: 234,
-      comments: 123,
+      image: "/images/Blog1.png",
+      likes: 327,
+      comments: 145,
       para1:
-        "Stepping into Barclays for my summer internship was like entering a world of innovation. The RFT team's guidance and unity made learning about risk finance inspiring.",
+        "Picture this: I once built a monolithic app so tightly coupled that fixing a typo in the login page broke our office coffee machine’s WiFi. That’s when I realized—it’s time to embrace microservices. Docker isn’t just a tool; it’s a game-changer for developers tired of hearing, ‘But it works on my machine!’. Let’s break it down.",
       para2:
-        "From day one, the people at Barclays made it clear that this wasn’t just a workplace; it was a community. I was fortunate to be placed in the RFT (Risk Finance Treasury) team, under the guidance of the affable Subhasis Sir, my Line Manager.",
+        "Microservices in Docker are like building blocks—each service (user auth, payment, notifications) lives in its own container, blissfully unaware of the others. Need to scale the payment service? Just spin up another container. Update the auth system? No need to rebuild the entire app. But here’s the catch: orchestrate poorly, and you’ll end up with a digital Jenga tower. My first attempt? Let’s just say Kubernetes had to step in like a babysitter for my overenthusiastic containers.",
       para3:
-        "From the very first day, I was mesmerized by the grandeur of the Infinity and Harmony buildings. The state-of-the-art infrastructure served as a constant reminder of the innovative spirit that Barclays embodies.",
-    },
+        "The magic happens when you combine microservices’ flexibility with Docker’s consistency. I once containerized a legacy monolith into 12 microservices. Result? Deployment time dropped from 45 minutes to 90 seconds...",
+    }
   ];
   return (
     <div className="blogSection">

@@ -18,45 +18,43 @@ const AboutMe = () => {
         <div className="right-container">
           <div className="aboutme">
             <p>
-              Hi there! I am a BTech student in Computer Science Engineering
-              with a specialization in Artificial Intelligence and Machine
-              Learning. As a student, I have always been fascinated by the power
-              of technology to transform our world and I am determined to make a
-              difference in this field. In addition to my studies, I have also
-              taken on various initiatives and projects to develop my skills and
-              gain real-world experience. I am a freelance developer, providing
-              services to clients and helping them achieve their goals through
-              technology. Additionally, I am also a Product Development Intern
-              at Travis, where I work on cutting-edge projects and collaborate
-              with a team of experts in the field. Through my experiences, I
-              have honed my skills in machine learning, deep learning, computer
-              vision, and natural language processing. I am passionate about
-              using these skills to develop innovative solutions that solve
-              real-world problems and make a positive impact on society. My
-              ultimate goal is to become a leading expert in the field of
-              Artificial Intelligence and Machine Learning and to use my skills
-              and knowledge to help build a better future for us all. Thank you
-              for visiting my website! I hope you find my work and experiences
-              inspiring and look forward to connecting with you soon.
+              I’m a Computer Science student specializing in Cloud Computing and
+              Virtualization. Technology’s ability to simplify complex tasks and
+              improve lives has always fascinated me. While machines can
+              automate processes, I believe humans drive true
+              innovation—combining creativity with technical skills to solve
+              real problems. My studies focus on understanding how systems work
+              “under the hood” and turning that knowledge into practical
+              solutions.
+            </p>
+            <p>
+              I’ve worked on web development, DevOps, and cloud-based projects
+              to build hands-on experience. From creating user-friendly apps to
+              automating workflows, I enjoy turning ideas into tools that make
+              tasks easier. These projects have taught me how to design flexible
+              systems and collaborate effectively to deliver results.
+            </p>
+            <p>
+              I want to build technology that reduces repetitive work, saves
+              time, and helps people focus on what matters. Whether it’s
+              improving cloud tools or designing intuitive software, I aim to
+              create solutions that empower others. Let’s connect and work on
+              ideas that make a difference!
             </p>
           </div>
           <div className="skills">
             <div className="skill-heading">
-            <h3>Skills</h3>
+              <h3>Skills</h3>
             </div>
             <div className="skill-content">
-            <span>React</span>
-            <span>React</span>
-            <span>React</span>
-            <span>React</span>
-            <span>React</span>
-            <span>React</span>
-            <span>React</span>
-            <span>React</span>
-            <span>React</span>
-            <span>React</span>
-            <span>React</span>
-            <span>React</span>
+              <span>HTML</span>
+              <span>React</span>
+              <span>Node js</span>
+              <span>Docker</span>
+              <span>AWS</span>
+              <span>MySQL</span>
+              <span>Java</span>
+              <span>GitHub</span>
             </div>
           </div>
         </div>

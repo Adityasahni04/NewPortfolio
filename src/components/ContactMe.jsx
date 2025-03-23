@@ -1,17 +1,28 @@
 import React, { useState } from 'react'
+import axios from 'axios';
 import '../Styles/ContactMe.css'
 const ContactMe = () => {
   const [name,setname] = useState('');
   const [email,setemail] = useState('');
   const [message,setmessage] = useState('');
 
-  const handleSubmission=(e)=>{
+  const handleSubmission = async (e) => {
     e.preventDefault();
-    console.log(name+email+message);
-    setname('');
-    setemail('');
-    setmessage('');
-  }
+    try {
+      await axios.post('https://formspree.io/f/xyzeedgr', {
+        name,
+        email,
+        message
+      });
+      console.log('Message sent successfully!');
+      setname('');
+      setemail('');
+      setmessage('');
+    } catch (error) {
+        console.log(error);
+    }
+  };
+
 
   return (
     <div>
